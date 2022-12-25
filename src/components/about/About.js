@@ -44,7 +44,7 @@ function About() {
                 Read more about my experiences on the tab "Experiences".
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href={CV}>
+                <a href={CV} download="">
                   <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="https://www.linkedin.com/in/gabriela-foga%C3%A7a-864261174/">
