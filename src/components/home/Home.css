@@ -106,7 +106,7 @@ ul.sidebar.d__flex{
   height: 100%;
   position: fixed;
   right: 0%;
-  background: #5e5e5e44;
+  background: rgba(103, 103, 103, 0.88);
   width: 300px;
   top: 0%;
   flex-direction: column;
