@@ -8,7 +8,7 @@ function Home() {
     header.classList.toggle("active", this.window.scrollY > 0);
   });
 
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <div className="home" id="Home">
@@ -44,30 +44,42 @@ function Home() {
           <div className="toggle__menu">
             <i class="uil uil-bars pointer" onClick={() => setShow(!show)}></i>
           </div>
-          {show?(
-          <div className="sideNavbar">
-            <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-                <a href="#Home">Home</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#About">About</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Services">Services</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Projects">Projects</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Experiences">Experiences</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-          ): null}
+          {show ? (
+            <div className="sideNavbar">
+              <ul className="sidebar d__flex">
+                <li className="sideNavbar">
+                  <a href="#Home" onClick={() => setShow(false)}>
+                    Home
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#About" onClick={() => setShow(false)}>
+                    About
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Services" onClick={() => setShow(false)}>
+                    Services
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Projects" onClick={() => setShow(false)}>
+                    Projects
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Experiences" onClick={() => setShow(false)}>
+                    Experiences
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Contact" onClick={() => setShow(false)}>
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
