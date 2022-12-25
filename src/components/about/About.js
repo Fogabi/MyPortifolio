@@ -21,8 +21,8 @@ function About() {
               </p>
               <p className="about__text p__color">
                 I started my career in 2016 at the age of 16 as an intern at the
-                Court of Domestic and Family Violence Against Women - Court
-                of Justice of São Paulo. This experience took me in 2019 to the
+                Court of Domestic and Family Violence Against Women - Court of
+                Justice of São Paulo. This experience took me in 2019 to the
                 legal department of Quero Educação, where I worked as a
                 Litigation Analyst for 2 years and had my first contact with
                 technology through proximity to the Development and Product
@@ -44,7 +44,7 @@ function About() {
                 Read more about my experiences on the tab "Experiences".
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href={CV} download="">
+                <a href="https://drive.google.com/file/d/14UiSpMwQcoxM944poRnePsRb_X-PCjSH/view">
                   <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="https://www.linkedin.com/in/gabriela-foga%C3%A7a-864261174/">
