@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'
 import logo from "../../img/home/logo.png";
-// import { useTranslation } from "react-i18next";
 
 function Home() {
   window.addEventListener("scroll", function () {
@@ -11,20 +10,6 @@ function Home() {
 
   const [show, setShow] = useState(true);
 
-  // Toggle Menu
-
-  // const { t, i18 } = useTranslation();
-  // const [languageConst, setLanguageConst] = useState("English");
-
-  // const changeLanguage = () => {
-  //   if (languageConst == "Português") {
-  //     setLanguageConst("English");
-  //     // i18.changeLanguage('en')
-  //   } else {
-  //     setLanguageConst("Português");
-  //     // i18.changeLanguage('pt')
-  //   }
-  // };
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -83,10 +68,6 @@ function Home() {
             </ul>
           </div>
           ): null}
-
-          {/* <button className="language__button" onClick={changeLanguage}>
-            {languageConst}
-          </button> */}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
@@ -97,7 +78,6 @@ function Home() {
               <h3 className="home__text sweet">
                 FrontEnd Development and Business Intelligence
               </h3>
-              {/* <h4 className="home__text pz__10">Sempre em evolução.</h4> */}
             </div>
           </div>
         </div>
