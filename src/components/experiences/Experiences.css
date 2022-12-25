@@ -1,0 +1,108 @@
+.experience__p {
+  padding: 10px;
+}
+
+.experience__meta.absolute {
+  top: 0%;
+  padding: 0px 50px;
+  left: 0%;
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.experience__meta:hover button.experience.project__btn {
+  margin-bottom: 40px;
+}
+
+button.experience.project__btn {
+  margin-bottom: -50px;
+  transition: 0.4s all ease;
+  font-size: 15px;
+}
+
+.experiences__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.experiences__modal-content {
+  width: 500px;
+  position: relative;
+  background-color: #fff;
+  padding: 4.5rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.experiences__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 98%);
+  cursor: pointer;
+}
+
+.experiences__modal-title,
+.experiences__modal-description {
+  text-align: center;
+}
+
+.experiences__modal-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.experiences__modal-description {
+  font-size: 0.813rem;
+  padding: 0 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.experiences__modal-experiences {
+  row-gap: 0.75rem;
+}
+
+.experiences__modal-experience{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.experiences__modal-icon{
+    color: black;
+    font-size: 1.1rem;
+}
+
+.uil-times{
+    color: black;
+}
+
+.experiences__modal-info{
+    font-size: 0.875rem;
+}
+
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}

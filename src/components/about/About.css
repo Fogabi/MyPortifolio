@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,800;1,200&display=swap");
+
+.about {
+  background: #191919;
+}
+
+.about__img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+h1.about__heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: start;
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+}
+
+.part__2 {
+  margin-left: -8%;
+}
+
+button.about.btn.pointer {
+  text-transform: capitalize;
+  width: 195px;
+  height: 55px;
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+
+.about__button {
+  padding: 20px 0px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 800px) {
+  .p__color {
+    font-size: 15px !important;
+  }
+  .col__2 {
+    width: 100%;
+  }
+  .about__button {
+    display: flex;
+    flex-direction: column;
+  }
+  .about.btn.pointer {
+    margin-bottom: 10px;
+  }
+  .about__heading,
+  .about__meta {
+    padding: 35px;
+  }
+}

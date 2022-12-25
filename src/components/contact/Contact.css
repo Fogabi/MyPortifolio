@@ -1,0 +1,27 @@
+.contact{
+    background-color: #191919;
+}
+
+.contact__icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.contact__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.div__icons{
+    display: flex;
+    flex-direction: row;
+}
+
+/* RESPONSIVE */
+
+
+
